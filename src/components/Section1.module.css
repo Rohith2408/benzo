@@ -1,0 +1,393 @@
+.mainwrapper{
+    width:100vw;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background-image: linear-gradient(#BA0000,#6F0000);
+}
+  
+  .subwrapper{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+    padding:10px;
+  }
+
+  .socialWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .socialicons{
+    object-fit: contain;
+    height: auto;
+  }
+
+  .body{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height:100%;
+    box-sizing: border-box;
+    position: relative;
+  }
+
+  .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    box-sizing: border-box;
+  }
+
+  .right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    box-sizing: border-box;
+  }
+
+  .title{
+    color: #f47931;
+    font-family: var(--font-comictoon);
+    margin: 0;
+    -webkit-text-stroke: 5px black;
+  }
+
+  .caHeading,.ca{
+    margin: 0;
+    color: black;
+    font-family:"Boogaloo";
+    
+  }
+
+  .cawrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 100px;
+  }
+
+  .banner{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    object-fit:cover;
+    z-index: 1;
+    top: 0%;
+  }
+
+  .subtitle{
+    font-family: "Boogaloo";
+    color: black;
+    margin: 0px;
+  }
+
+  .copyWrapper{
+    margin: 0;
+    background-color: transparent;
+    border: none;
+  }
+
+  .prop{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+  }
+
+  /* .ca{
+    max-width: 75%;
+  } */
+
+  @media screen and (max-width:500px) {
+
+    .mainwrapper{
+        max-height: 850px;
+        min-height: 800px;
+    }
+
+    .subwrapper{
+        max-width: 2200px;
+        flex-direction: row;
+    }
+
+    .body{
+        flex-direction: column;
+    }
+
+    .left{
+        height: 60%;
+        gap: 20px;
+    }
+
+    .right{
+        height:40%;
+    }
+    
+    .socialWrapper{
+        gap: 30px;
+    }
+
+    .socialicons{
+        width:40px;
+        border-radius: 100px;
+    }
+
+    .subtitle{
+        font-size: 30px;
+    }
+
+    .cawrapper{
+        padding:14px;
+        gap: 10px;
+    }
+
+    .caHeading,.ca{
+        font-size:14px;
+    }
+
+    .copyIcon{
+        width:14px;
+        height: auto;
+    }
+
+    .title{
+        width:320px;
+    }
+
+    .bull{
+        width: auto;
+        height:400px;
+        object-fit: contain;
+    }
+
+  }
+
+  @media screen and (min-width:501px) and (max-width:1023px) {
+
+    .mainwrapper{
+        max-height:980px;
+        min-height:900px;
+    }
+
+    .subwrapper{
+        max-width: 2200px;
+        flex-direction: row;
+    }
+
+    .body{
+        flex-direction: column;
+    }
+
+    .left{
+        height: 60%;
+        gap: 20px;
+    }
+
+    .right{
+        height:40%;
+    }
+    
+    .socialWrapper{
+        gap: 30px;
+    }
+
+    .socialicons{
+        width:40px;
+        border-radius: 100px;
+    }
+
+    .subtitle{
+        font-size: 30px;
+    }
+
+    .cawrapper{
+        padding:14px;
+        gap: 10px;
+    }
+
+    .caHeading,.ca{
+        font-size:14px;
+    }
+
+    .copyIcon{
+        width:14px;
+        height: auto;
+    }
+
+    .title{
+        width:470px;
+    }
+
+    .bull{
+        width: auto;
+        height:470px;
+        object-fit: contain;
+    }
+
+    .prop{
+        content: url("../images/Section1/prop2.png");
+    }
+  }
+
+  @media screen and (min-width:1024px) and (max-width:1920px) {
+
+    .mainwrapper{
+        max-height: 980px;
+        min-height: 900px;
+    }
+
+    .subwrapper{
+        max-width: 2200px;
+        flex-direction: row;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .body{
+        gap:25px;
+        flex-direction: row;
+    }
+
+    .left{
+        width: 50%;
+        gap: 30px;
+        align-items: flex-start;
+    }
+
+    .right{
+        width: 50%;
+        align-self: flex-end;
+    }
+    
+    .socialWrapper{
+        gap: 40px;
+    }
+
+    .socialicons{
+        width:44px;
+        border-radius: 100px;
+    }
+
+    .subtitle{
+        font-size: 50px;
+        text-align: start;
+    }
+
+    .cawrapper{
+        padding:16px;
+        gap: 10px;
+    }
+
+    .caHeading,.ca{
+        font-size:16px;
+    }
+
+    .copyIcon{
+        width:20px;
+        height: auto;
+    }
+
+    .title{
+        width:600px;
+    }
+
+    .bull{
+        width:800px;
+        height: auto;
+        object-fit: contain;
+    }
+
+  }
+
+  @media screen and (min-width:1921px){
+
+    .mainwrapper{
+        max-height: 1080px;
+        min-height: 1080px;
+    }
+
+    .subwrapper{
+        max-width: 2200px;
+        flex-direction: row;
+        padding-left: 100px;
+        padding-right:100px;
+    }
+
+    .body{
+        gap:25px;
+        flex-direction: row;
+    }
+
+    .left{
+        width: 50%;
+        gap:40px;
+        align-items: flex-start;
+    }
+
+    .right{
+        width: 50%;
+        align-self: flex-end;
+    }
+    
+    .socialWrapper{
+        gap: 60px;
+    }
+
+    .socialicons{
+        width:80px;
+        border-radius: 100px;
+    }
+
+    .subtitle{
+        font-size: 50px;
+        text-align: start;
+    }
+
+    .cawrapper{
+        padding: 20px;
+        gap: 10px;
+        border: 10px solid;
+    }
+
+    .caHeading,.ca{
+        font-size:28px;
+    }
+
+    .copyIcon{
+        width:26px;
+        height: auto;
+    }
+
+    .title{
+        width: 700px;
+    }
+
+    .bull{
+        width: 1000px;
+        height: auto;
+        object-fit: contain;
+    }
+
+  }
+

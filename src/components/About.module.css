@@ -82,6 +82,7 @@
     .image_wrapper{
         width: 50%;
         align-self: center;
+        transform: translateY(-60px);
     }
 
     .image{
@@ -131,6 +132,7 @@
     .image_wrapper{
         width: 50%;
         align-self: center;
+        transform: translateY(-10%);
     }
 
     .image{
@@ -159,8 +161,8 @@
   @media screen and (min-width:1024px) and (max-width:1920px) {
 
     .mainwrapper{
-        max-height: 880px;
-        min-height: 800px;
+        max-height: 980px;
+        min-height: 900px;
     }
 
     .subwrapper{
@@ -209,8 +211,8 @@
   @media screen and (min-width:1921px){
 
     .mainwrapper{
-        max-height: 1080px;
-        min-height: 1000px;
+        max-height: 1180px;
+        min-height: 1100px;
     }
 
     .subwrapper{

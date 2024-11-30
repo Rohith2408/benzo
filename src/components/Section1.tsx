@@ -16,10 +16,10 @@ import { getAllWebsites } from "../firebaseconfig";
 const Section1=()=>{
 
     const [socialIcons,setSocialIcons]= useState([
-        { src: telegram_icon, link: "" },
-        { src: twitter_icon, link: "" },
-        { src:dex_icon, link: "" },
-        { src: dextools_icon, link: "" },
+        // { src: telegram_icon, link: "" },
+        // { src: twitter_icon, link: "" },
+        // { src:dex_icon, link: "" },
+        // { src: dextools_icon, link: "" },
         // { src:coingecko_icon, link: "" },
         // { src:insta_icon, link: "" }
     ])

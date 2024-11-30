@@ -15,7 +15,7 @@ import { getAllWebsites } from "../firebaseconfig";
 
 const Section1=()=>{
 
-    const [socialIcons,setSocialIcons]= useState([
+    const [socialIcons,setSocialIcons]= useState<{ src: string, link: string }[]>([
         // { src: telegram_icon, link: "" },
         // { src: twitter_icon, link: "" },
         // { src:dex_icon, link: "" },

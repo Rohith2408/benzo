@@ -84,6 +84,7 @@
     align-items: center;
     background-color: white;
     border-radius: 100px;
+    border: 10px solid;
   }
 
   .banner{
@@ -373,7 +374,6 @@
     .cawrapper{
         padding: 20px;
         gap: 10px;
-        border: 10px solid;
     }
 
     .caHeading,.ca{

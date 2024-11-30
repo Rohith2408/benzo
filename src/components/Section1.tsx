@@ -52,10 +52,6 @@ const Section1=()=>{
                 {
                     socials.push({ src: dextools_icon, link:current.data.sociallinks.dextools})
                 }
-                // current.data.sociallinks?.dexscreener?socials.push({ src:dex_icon, link: current.data.sociallinks.dexscreener}):null
-                // current.data.sociallinks?.telegram?socials.push({ src: telegram_icon, link: current.data.sociallinks.telegram}):null
-                // current.data.sociallinks?.x?socials.push({ src: twitter_icon, link: current.data.sociallinks.x}):null
-                // current.data.sociallinks?.dextools?socials.push({ src: dextools_icon, link:current.data.sociallinks.dextools}):null
                 setSocialIcons(socials);
             }
             setLoading(false);

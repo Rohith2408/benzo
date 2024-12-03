@@ -9,6 +9,9 @@ import copy_icon from '../images/Section1/copy.png'
 import title_image from '../images/Section1/title.png'
 import bull from '../images/Section1/bull.gif'
 import prop from '../images/Section1/prop.png'
+import bg from '../images/Section1/bg.png'
+import frame from '../images/Section1/frame.png'
+import frame2 from '../images/Section1/frame_horizontal.png'
 
 const Section1=()=>{
 
@@ -29,6 +32,10 @@ const Section1=()=>{
         <section className={styles.mainwrapper} id="section2" data-scroll-to="section2">
             <div className={styles.subwrapper}>
                 <img src={prop} className={styles.prop}/>
+                <img src={bg} className={styles.bg}/>
+                <img src={frame} style={{height:"100%",width:"auto",objectFit:"contain",position:"absolute",left:0}}/>
+                <img src={frame} style={{height:"100%",width:"auto",objectFit:"contain",position:"absolute",right:0}}/>
+                <img src={frame2} style={{width:"100%",height:"auto",objectFit:"contain",position:"absolute",top:0}}/>
                 <div className={styles.body}>
                     <div className={styles.left}>
                         <img src={title_image} className={styles.title}/>

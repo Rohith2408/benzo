@@ -6,6 +6,7 @@ import dex_icon from '../images/Section1/dex.png'
 import dextools_icon from '../images/Section1/dextools.png'
 import copy_icon from '../images/Section1/copy.png'
 import horns from '../images/footer/horns.png'
+import bg from '../images/footer/bg.png'
 
 export type FooterType = {
   className?: string;
@@ -34,10 +35,11 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
   return (
     <section className={[styles.mainwrapper, className].join(" ")} id="footer" data-scroll-to="footer">
       <div className={[styles.subwrapper, className].join(" ")}>
+      <img src={bg} style={{width:"100%",height:"auto",objectFit:"contain",position:"absolute",top:0}}/>
         <img className={styles.prop}/>
         <img className={styles.horns} src={horns}></img>
         <div className={[styles.line, className].join(" ")}></div>
-        <div className={[styles.body, className].join(" ")}>
+        <div className={[styles.body, className].join(" ")} style={{zIndex:1}}>
           <div className={[styles.description2wrapper, className].join(" ")}>
             <div className={[styles.buymarv, className].join(" ")}><a style={{color:"#6F0000",textDecoration:"none"}} href={buyLink} target="_blank">Buy $WAGYU</a></div>
             <div className={[styles.contractaddwrapper, className].join(" ")}>

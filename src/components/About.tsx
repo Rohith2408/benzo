@@ -16,7 +16,7 @@ const About=()=>{
                 <img src={frame2} style={{width:"100%",height:"auto",objectFit:"contain",position:"absolute",bottom:0}}/>
                 <img className={styles.banner} src={banner}/>
                 <div className={styles.image_wrapper}><img src={knife} className={styles.image}/></div>
-                <div className={styles.body_wrapper}>
+                <div className={styles.body_wrapper} style={{zIndex:1}}>
                     <img src={title_image} className={styles.title}/>
                     <p className={styles.text}>
                     A relentless, bull-headed crypto warrior slicing through market volatility with precision. Draped in a samurai-style robe and gripping a bloodied cleaver, he symbolizes the unstoppable force of bullish momentum. Known for his tagline, "Cutting losses, carving gains," this meme character embodies the spirit of crypto traders battling the bears and thriving in the chaos of the blockchain battlefield

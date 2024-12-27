@@ -85,8 +85,8 @@
   @media screen and (max-width:500px) {
 
     .mainwrapper{
-        max-height:1350px;
-        min-height:1300px;
+        max-height:1450px;
+        min-height:1400px;
     }
 
     .body{

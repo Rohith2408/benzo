@@ -19,7 +19,7 @@ const About=()=>{
                 <div className={styles.body_wrapper} style={{zIndex:1}}>
                     <img src={title_image} className={styles.title}/>
                     <p className={styles.text}>
-                    A relentless, bull-headed crypto warrior slicing through market volatility with precision. Draped in a samurai-style robe and gripping a bloodied cleaver, he symbolizes the unstoppable force of bullish momentum. Known for his tagline, "Cutting losses, carving gains," this meme character embodies the spirit of crypto traders battling the bears and thriving in the chaos of the blockchain battlefield
+                    Welcome to 2025: Year of the Snake, where crypto meets slithery memes! 🐍💸 Dive into the hilarious side of blockchain with bite-sized laughs, venomous wit, and coiled-up commentary on the wild world of cryptocurrency. Whether you're a crypto connoisseur or just along for the ride, we've got the perfect mix of fangs and fun to keep you entertained.
                     </p>
                 </div>
             </div>

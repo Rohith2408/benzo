@@ -62,8 +62,8 @@
   @media screen and (max-width:500px) {
 
     .mainwrapper{
-        max-height: 1140px;
-        min-height: 1100px;
+        max-height: 1240px;
+        min-height: 1200px;
     }
 
     .subwrapper{
@@ -112,8 +112,8 @@
   @media screen and (min-width:501px) and (max-width:1023px) {
 
     .mainwrapper{
-        max-height: 1320px;
-        min-height: 1250px;
+        max-height: 1370px;
+        min-height: 1350px;
     }
 
     .subwrapper{
@@ -162,8 +162,8 @@
   @media screen and (min-width:1024px) and (max-width:1920px) {
 
     .mainwrapper{
-        max-height: 980px;
-        min-height: 900px;
+        max-height: 1080px;
+        min-height: 1000px;
     }
 
     .subwrapper{

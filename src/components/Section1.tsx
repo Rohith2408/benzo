@@ -12,20 +12,35 @@ import prop from '../images/Section1/prop.png'
 import bg from '../images/Section1/bg.png'
 import frame from '../images/Section1/frame.png'
 import frame2 from '../images/Section1/frame_horizontal.png'
+import { getAllWebsites } from "../firebaseconfig";
 
 const Section1=()=>{
 
-    const socialIcons= useRef([
+    const [socialIcons,setSocialIcons]=useState([
         { src: telegram_icon, link: "" },
         { src: twitter_icon, link: "" },
         { src:dex_icon, link: "" },
         { src: dextools_icon, link: "" },
         { src:coingecko_icon, link: "" },
-    ]).current
-    const ca=useRef("TBA").current   
+    ]);
+    const [ca,setCa]=useState("")
 
     useEffect(()=>{
-        
+        getAllWebsites().then((doc)=>{
+            let currentWebsite=doc.find((website)=>website.data.name=="2025")
+            console.log(currentWebsite);
+            if(currentWebsite)
+            {
+                setSocialIcons([
+                    { src: telegram_icon, link: currentWebsite.data.sociallinks.telegram },
+                    { src: twitter_icon, link: currentWebsite.data.sociallinks.x},
+                    { src:dex_icon, link: currentWebsite.data.sociallinks.dexscreener},
+                    { src: dextools_icon, link: currentWebsite.data.sociallinks.dextools},
+                    // { src:coingecko_icon, link: "" },
+                ]);
+                setCa(currentWebsite.data.ca);
+            }
+        })
     },[])
 
     return(
@@ -55,7 +70,7 @@ const Section1=()=>{
                         </div>
                         <div className={styles.cawrapper}>
                             <p className={styles.caHeading}>CA</p>
-                            <p className={styles.ca} >{ca}</p>
+                            <p className={styles.ca} >{ca?ca:"TBA"}</p>
                             <button className={styles.copyWrapper} onClick={()=>{alert("CA has been copied");navigator.clipboard.writeText(ca)}}><img className={styles.copyIcon} src={copy_icon}></img></button>
                         </div>
                     </div>

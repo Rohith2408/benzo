@@ -10,11 +10,11 @@ const About=()=>{
     return(
         <section className={styles.mainwrapper} id="section2" data-scroll-to="section2">
             <div className={styles.subwrapper}>
-                <img src={frame} style={{height:"100%",width:"auto",objectFit:"contain",position:"absolute",left:0}}/>
+                {/* <img src={frame} style={{height:"100%",width:"auto",objectFit:"contain",position:"absolute",left:0}}/>
                 <img src={frame} style={{height:"100%",width:"auto",objectFit:"contain",position:"absolute",right:0}}/>
                 <img src={frame2} style={{width:"100%",height:"auto",objectFit:"contain",position:"absolute",top:0}}/>
-                <img src={frame2} style={{width:"100%",height:"auto",objectFit:"contain",position:"absolute",bottom:0}}/>
-                <img className={styles.banner} src={banner}/>
+                <img src={frame2} style={{width:"100%",height:"auto",objectFit:"contain",position:"absolute",bottom:0}}/> */}
+                {/* <img className={styles.banner} src={banner}/> */}
                 <div className={styles.image_wrapper}><img src={knife} className={styles.image}/></div>
                 <div className={styles.body_wrapper} style={{zIndex:1}}>
                     <img src={title_image} className={styles.title}/>

@@ -8,7 +8,8 @@
     background-repeat:no-repeat;
     background-size: cover;
     position: relative;
-    background-image: linear-gradient(#BA0000,#6F0000);
+    background-color:#ECD9B8;
+    background-image: url(../images/Section1/prop.png);
     /* overflow: hidden; */
 }
   

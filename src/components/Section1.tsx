@@ -7,7 +7,7 @@ import coingecko_icon from '../images/Section1/coingecko.png'
 import dextools_icon from '../images/Section1/dextools.png'
 import copy_icon from '../images/Section1/copy.png'
 import title_image from '../images/Section1/title.png'
-import bull from '../images/Section1/bull.gif'
+import snake from '../images/Section1/snake.png'
 import prop from '../images/Section1/prop.png'
 import bg from '../images/Section1/bg.png'
 import frame from '../images/Section1/frame.png'
@@ -33,13 +33,13 @@ const Section1=()=>{
             <div className={styles.subwrapper}>
                 <img src={prop} className={styles.prop}/>
                 <img src={bg} className={styles.bg}/>
-                <img src={frame} style={{height:"100%",width:"auto",objectFit:"contain",position:"absolute",left:0}}/>
+                {/* <img src={frame} style={{height:"100%",width:"auto",objectFit:"contain",position:"absolute",left:0}}/>
                 <img src={frame} style={{height:"100%",width:"auto",objectFit:"contain",position:"absolute",right:0}}/>
-                <img src={frame2} style={{width:"100%",height:"auto",objectFit:"contain",position:"absolute",top:0}}/>
+                <img src={frame2} style={{width:"100%",height:"auto",objectFit:"contain",position:"absolute",top:0}}/> */}
                 <div className={styles.body}>
                     <div className={styles.left}>
                         <img src={title_image} className={styles.title}/>
-                        <p className={styles.subtitle}>“Chopping losses, stacking profits!”</p>
+                        <p className={styles.subtitle}>“2025-Year of the Snake!”</p>
                         <div className={styles.socialWrapper}>
                         {
                             socialIcons.map((icon) => (
@@ -59,7 +59,7 @@ const Section1=()=>{
                             <button className={styles.copyWrapper} onClick={()=>{alert("CA has been copied");navigator.clipboard.writeText(ca)}}><img className={styles.copyIcon} src={copy_icon}></img></button>
                         </div>
                     </div>
-                    <div className={styles.right}><img src={bull} className={styles.bull}/></div>
+                    <div className={styles.right}><img src={snake} className={styles.bull}/></div>
                 </div>
             </div>
         </section>

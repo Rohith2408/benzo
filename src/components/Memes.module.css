@@ -69,6 +69,7 @@
     border-color: black;
     animation: swing 2s infinite ease-in-out;
     transform-origin: top center; 
+    z-index: 1;
   }
 
   .bg{
@@ -200,7 +201,7 @@
         top: -40px;
     }
     .bg{
-      content: url('../images/Section1/bg.png');
+      content: url('../images/about/bg.png');
   }
 
   }
@@ -241,7 +242,7 @@
     }
 
     .bg{
-      content: url('../images/Section1/bg.png');
+      content: url('../images/about/bg.png');
   }
 
   }

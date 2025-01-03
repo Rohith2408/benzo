@@ -13,6 +13,8 @@ import bg from '../images/Section1/bg.png'
 import frame from '../images/Section1/frame.png'
 import frame2 from '../images/Section1/frame_horizontal.png'
 import { getAllWebsites } from "../firebaseconfig";
+import cloud1 from '../images/Section1/cloud1.png'
+import cloud2 from '../images/Section1/cloud2.png'
 
 const Section1=()=>{
 
@@ -46,7 +48,8 @@ const Section1=()=>{
     return(
         <section className={styles.mainwrapper} id="section2" data-scroll-to="section2">
             <div className={styles.subwrapper}>
-                <img src={prop} className={styles.prop}/>
+                <img src={cloud1} className={styles.cloud1}/>
+                <img src={cloud2} className={styles.cloud2}/>
                 <img src={bg} className={styles.bg}/>
                 {/* <img src={frame} style={{height:"100%",width:"auto",objectFit:"contain",position:"absolute",left:0}}/>
                 <img src={frame} style={{height:"100%",width:"auto",objectFit:"contain",position:"absolute",right:0}}/>

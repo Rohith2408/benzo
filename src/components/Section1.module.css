@@ -10,8 +10,8 @@
     position: relative;
     overflow: hidden;
     z-index: 1;
-    background-color:#ECD9B8;
-    background-image: url(../images/Section1/prop.png);
+    background-color:#FCCA42;
+    /* background-image: url(../images/Section1/prop.png); */
 }
   
   .subwrapper{
@@ -23,6 +23,18 @@
     box-sizing: border-box;
     position: relative;
     padding:10px;
+  }
+
+  .cloud1{
+    position: absolute;
+    top: 10px;
+    left:0;
+  }
+
+  .cloud2{
+    position: absolute;
+    top: 0px;
+    right: 50px;
   }
 
   .socialWrapper{
@@ -118,13 +130,12 @@
   }
 
   .bg{
-    width:100%;
-    height:auto;
+    height:100%;
+    width:auto;
     object-fit:cover;
     position:absolute;
     top:0px;
     z-index:-1;
-    object-fit: cover;
   }
 
   /* .ca{
@@ -134,8 +145,8 @@
   @media screen and (max-width:500px) {
 
     .mainwrapper{
-        max-height: 875px;
-        min-height: 850px;
+        max-height: 850px;
+        min-height: 800px;
     }
 
     .subwrapper{
@@ -190,7 +201,7 @@
 
     .bull{
         width: auto;
-        height:400px;
+        height:300px;
         object-fit: contain;
         content: url('../images/Section1/snake_mobile.png');
     }
@@ -203,13 +214,25 @@
         content: url('../images/Section1/bg_mobile.png');
     }
 
+    .cloud1{
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+    }
+
+    .cloud2{
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+    }
+
   }
 
   @media screen and (min-width:501px) and (max-width:1023px) {
 
     .mainwrapper{
-        max-height:1100px;
-        min-height:1050px;
+        max-height:1000px;
+        min-height:950px;
     }
 
     .subwrapper{
@@ -264,7 +287,7 @@
 
     .bull{
         width: auto;
-        height:470px;
+        height:370px;
         object-fit: contain;
         content: url('../images/Section1/snake_mobile.png');
     }
@@ -276,13 +299,25 @@
     .bg{
         content: url('../images/Section1/bg_mobile.png');
     }
+
+    .cloud1{
+        width: 150px;
+        height: 150px;
+        object-fit: contain;
+    }
+
+    .cloud2{
+        width: 300px;
+        height: 300px;
+        object-fit: contain;
+    }
   }
 
   @media screen and (min-width:1024px) and (max-width:1920px) {
 
     .mainwrapper{
-        max-height: 1180px;
-        min-height: 1100px;
+        max-height: 950px;
+        min-height: 900px;
     }
 
     .subwrapper{
@@ -305,7 +340,6 @@
 
     .right{
         width: 50%;
-        align-self: flex-end;
     }
     
     .socialWrapper{
@@ -341,7 +375,7 @@
     }
 
     .bull{
-        width:800px;
+        width:500px;
         height: auto;
         object-fit: contain;
         content: url('../images/Section1/snake.png');
@@ -350,6 +384,18 @@
     .bg{
         content: url('../images/Section1/bg.png');
     }
+
+    .cloud1{
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+    }
+
+    .cloud2{
+        width: 400px;
+        height: 400px;
+        object-fit: contain;
+    }
     
 
   }
@@ -357,8 +403,8 @@
   @media screen and (min-width:1921px){
 
     .mainwrapper{
-        max-height: 1380px;
-        min-height: 1380px;
+        max-height: 1080px;
+        min-height: 1080px;
     }
 
     .subwrapper{
@@ -381,7 +427,6 @@
 
     .right{
         width: 50%;
-        align-self: flex-end;
     }
     
     .socialWrapper{
@@ -417,7 +462,7 @@
     }
 
     .bull{
-        width: 1000px;
+        width: 600px;
         height: auto;
         object-fit: contain;
         content: url('../images/Section1/snake.png');
@@ -425,6 +470,18 @@
 
     .bg{
         content: url('../images/Section1/bg.png');
+    }
+
+    .cloud1{
+        width: 300px;
+        height: 300px;
+        object-fit: contain;
+    }
+
+    .cloud2{
+        width: 500px;
+        height: 500px;
+        object-fit: contain;
     }
 
   }

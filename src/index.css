@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Average+Sans&family=Bahiana&family=Barriecito&family=Barrio&family=Boogaloo&family=Bubbler+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand:wght@400&display=swap");
 
 body {
   margin: 0;
@@ -7,6 +9,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "Pure Joy";
+  src: url("/public/Pure Joy.ttf");
+  font-weight: 400;
 }
 
 code {

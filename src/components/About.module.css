@@ -8,8 +8,9 @@
     background-repeat:no-repeat;
     background-size: cover;
     position: relative;
-    background-color:#ECD9B8;
-    background-image: url(../images/Section1/prop.png);
+    background-color:#E8A327;
+    overflow: hidden;
+    /* background-image: url(../images/Section1/prop.png); */
     /* overflow: hidden; */
 }
   
@@ -41,9 +42,18 @@
     justify-content: center;
   }
 
-  .image{
-    transform-origin: top;
+  .bg{
+    height: 100%;
+    width:auto;
+    object-fit:cover;
+    position:absolute;
+    top:0px;
+    object-fit: cover;
   }
+
+  /* .image{
+
+  } */
 
   .text{
     font-family: "Boogaloo";
@@ -62,13 +72,14 @@
   @media screen and (max-width:500px) {
 
     .mainwrapper{
-        max-height: 1240px;
-        min-height: 1200px;
+        max-height: 940px;
+        min-height: 900px;
     }
 
     .subwrapper{
         max-width: 2200px;
         flex-direction: column;
+        gap: 50px;
     }
 
     .body{
@@ -83,13 +94,13 @@
     .image_wrapper{
         width: 50%;
         align-self: center;
-        transform: translateY(-60px);
+        /* transform: translateY(-60px); */
     }
 
     .image{
-        width:150px;
+        width:200px;
         object-fit: contain;
-        animation: Swing 8s infinite;
+        animation: Swing 2s infinite;
     }
 
     .title{
@@ -107,18 +118,23 @@
         top: -40px;
     }
 
+    .bg{
+        content: url('../images/Section1/bg_mobile.png');
+    }
+
   }
 
   @media screen and (min-width:501px) and (max-width:1023px) {
 
     .mainwrapper{
-        max-height: 1370px;
-        min-height: 1350px;
+        max-height: 1070px;
+        min-height: 1050px;
     }
 
     .subwrapper{
         max-width: 2200px;
         flex-direction: column;
+        gap: 50px;
     }
 
     .body{
@@ -133,13 +149,13 @@
     .image_wrapper{
         width: 50%;
         align-self: center;
-        transform: translateY(-10%);
+        /* transform: translateY(-10%); */
     }
 
     .image{
         width:250px;
         object-fit: contain;
-        animation: Swing 8s infinite;
+        animation: Swing 2s infinite;
     }
 
     .title{
@@ -157,13 +173,17 @@
         top: -40px;
     }
 
+    .bg{
+        content: url('../images/Section1/bg_mobile.png');
+    }
+
   }
 
   @media screen and (min-width:1024px) and (max-width:1920px) {
 
     .mainwrapper{
-        max-height: 1080px;
-        min-height: 1000px;
+        max-height: 980px;
+        min-height: 900px;
     }
 
     .subwrapper{
@@ -183,22 +203,22 @@
 
     .image_wrapper{
         width: 50%;
-        align-self: flex-start;
+        /* align-self: flex-start; */
     }
 
     .image{
         width:300px;
         object-fit: contain;
-        animation: Swing 8s infinite;
+        animation: Swing 2s infinite;
     }
 
     .title{
-        width: 400px;
+        width: 500px;
     }
 
     .text{
-        font-size:30px;
-        line-height:48px;
+        font-size:34px;
+        line-height:52px;
         text-align: start;
     }
 
@@ -207,13 +227,17 @@
         top: -40px;
     }
 
+    .bg{
+        content: url('../images/Section1/bg.png');
+    }
+
   }
 
   @media screen and (min-width:1921px){
 
     .mainwrapper{
-        max-height: 1180px;
-        min-height: 1100px;
+        max-height: 980px;
+        min-height: 900px;
     }
 
     .subwrapper{
@@ -229,17 +253,17 @@
 
     .image_wrapper{
         width: 50%;
-        align-self: flex-start;
+        /* align-self: flex-start; */
     }
 
     .image{
         width:400px;
         object-fit: contain;
-        animation: Swing 8s infinite;
+        animation: Swing 2s infinite;
     }
 
     .title{
-        width: 800px;
+        width: 900px;
     }
 
     .text{
@@ -252,17 +276,21 @@
         height:110px;
         top: -55px;
     }
+    
+    .bg{
+        content: url('../images/Section1/bg.png');
+    }
 
   }
   
   @keyframes Swing {
     0%{
-        transform: rotate(-5deg);
+        transform: rotate(0deg);
     }
     50%{
-        transform: rotate(5deg);
+        transform: rotate(180deg);
     }
     100%{
-        transform: rotate(-5deg);
+        transform: rotate(360deg);
     }
   }

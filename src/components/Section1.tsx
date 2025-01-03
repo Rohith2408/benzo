@@ -34,10 +34,10 @@ const Section1=()=>{
             if(currentWebsite)
             {
                 setSocialIcons([
-                    { src: telegram_icon, link: currentWebsite.data.sociallinks.telegram },
-                    { src: twitter_icon, link: currentWebsite.data.sociallinks.x},
-                    { src:dex_icon, link: currentWebsite.data.sociallinks.dexscreener},
-                    { src: dextools_icon, link: currentWebsite.data.sociallinks.dextools},
+                    { src: telegram_icon, link: currentWebsite?.data?.sociallinks?.telegram },
+                    { src: twitter_icon, link: currentWebsite?.data?.sociallinks?.x},
+                    { src:dex_icon, link: currentWebsite?.data?.sociallinks?.dexscreener},
+                    { src: dextools_icon, link: currentWebsite?.data?.sociallinks?.dextools},
                     // { src:coingecko_icon, link: "" },
                 ]);
                 setCa(currentWebsite.data.ca);

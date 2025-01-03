@@ -29,7 +29,7 @@ const Section1=()=>{
 
     useEffect(()=>{
         getAllWebsites().then((doc)=>{
-            let currentWebsite=doc.find((website)=>website.data.name=="2025")
+            let currentWebsite=doc.find((website)=>website.data.name=="booba")
             console.log(currentWebsite);
             if(currentWebsite)
             {
@@ -51,13 +51,10 @@ const Section1=()=>{
                 <img src={cloud1} className={styles.cloud1}/>
                 <img src={cloud2} className={styles.cloud2}/>
                 <img src={bg} className={styles.bg}/>
-                {/* <img src={frame} style={{height:"100%",width:"auto",objectFit:"contain",position:"absolute",left:0}}/>
-                <img src={frame} style={{height:"100%",width:"auto",objectFit:"contain",position:"absolute",right:0}}/>
-                <img src={frame2} style={{width:"100%",height:"auto",objectFit:"contain",position:"absolute",top:0}}/> */}
                 <div className={styles.body}>
                     <div className={styles.left}>
                         <img src={title_image} className={styles.title}/>
-                        <p className={styles.subtitle}>“2025-Year of the Snake!”</p>
+                        <p className={styles.subtitle}>“Where coins meet curves!”</p>
                         <div className={styles.socialWrapper}>
                         {
                             socialIcons.map((icon) => (

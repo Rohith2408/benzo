@@ -7,6 +7,7 @@ import image3 from '../images/Tokenomics/3.gif'
 import image4 from '../images/Tokenomics/4.gif'
 import image5 from '../images/memes/5.jpeg'
 import title_image from '../images/Tokenomics/title.png'
+import cloud1 from '../images/Section1/cloud1.png'
 // import icon from '../images/Tokenomics/icon.png'
 // import banner from '../images/banner.gif'
 
@@ -24,6 +25,7 @@ const Tokenomics=()=>{
     return(
         <section className={styles.mainwrapper} id="section2" data-scroll-to="section2">
             <div className={styles.subwrapper}>
+                <img src={cloud1} className={styles.cloud1}/>
                 <div className={styles.body}>
                     {/* <img className={styles.banner} src={banner}/> */}
                     {/* <p className={styles.title}>Tokenomics</p> */}

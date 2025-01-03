@@ -69,6 +69,12 @@
     z-index: 1;
   }
 
+  .cloud2{
+    position: absolute;
+    top: 0px;
+    right: 50px;
+  }
+
   @media screen and (max-width:500px) {
 
     .mainwrapper{
@@ -120,6 +126,12 @@
 
     .bg{
         content: url('../images/Section1/bg_mobile.png');
+    }
+
+    .cloud2{
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
     }
 
   }
@@ -177,6 +189,12 @@
         content: url('../images/Section1/bg_mobile.png');
     }
 
+    .cloud2{
+        width: 300px;
+        height: 300px;
+        object-fit: contain;
+    }
+
   }
 
   @media screen and (min-width:1024px) and (max-width:1920px) {
@@ -228,7 +246,13 @@
     }
 
     .bg{
-        content: url('../images/Section1/bg.png');
+        content: url('../images/about/bg.png');
+    }
+
+    .cloud2{
+        width: 400px;
+        height: 400px;
+        object-fit: contain;
     }
 
   }
@@ -278,7 +302,13 @@
     }
     
     .bg{
-        content: url('../images/Section1/bg.png');
+        content: url('../images/about/bg.png');
+    }
+
+    .cloud2{
+        width: 500px;
+        height: 500px;
+        object-fit: contain;
     }
 
   }

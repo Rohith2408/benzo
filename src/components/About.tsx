@@ -5,6 +5,7 @@ import title_image from '../images/about/title.png'
 import frame from '../images/Section1/frame.png'
 import frame2 from '../images/Section1/frame_horizontal.png'
 import bg from '../images/Section1/bg.png'
+import cloud2 from '../images/Section1/cloud2.png'
 
 const About=()=>{
 
@@ -16,6 +17,7 @@ const About=()=>{
                 <img src={frame2} style={{width:"100%",height:"auto",objectFit:"contain",position:"absolute",top:0}}/>
                 <img src={frame2} style={{width:"100%",height:"auto",objectFit:"contain",position:"absolute",bottom:0}}/> */}
                 {/* <img className={styles.banner} src={banner}/> */}
+                <img src={cloud2} className={styles.cloud2}/>
                 <img src={bg} className={styles.bg}/>
                 <div className={styles.image_wrapper}><img src={knife} className={styles.image}/></div>
                 <div className={styles.body_wrapper} style={{zIndex:1}}>

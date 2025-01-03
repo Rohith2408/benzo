@@ -117,6 +117,12 @@
     align-self: center;
   }
 
+  .cloud1{
+    position: absolute;
+    top: 10px;
+    left:0;
+  }
+
   @media screen and (max-width:500px) {
 
     .mainwrapper{
@@ -164,6 +170,12 @@
         object-fit: contain;
     }
 
+    .cloud1{
+      width: 100px;
+      height: 100px;
+      object-fit: contain;
+  }
+
   }
 
   @media screen and (min-width:501px) and (max-width:1023px) {
@@ -209,6 +221,12 @@
         height: 24px;
         object-fit: contain;
     }
+
+    .cloud1{
+      width: 150px;
+      height: 150px;
+      object-fit: contain;
+  }
 
   }
 
@@ -258,10 +276,16 @@
     }
 
     .TD_icon{
-        width: 30px;
-        height: 30px;
-        object-fit: contain;
+      width: 30px;
+      height: 30px;
+      object-fit: contain;
     }
+
+    .cloud1{
+      width: 200px;
+      height: 200px;
+      object-fit: contain;
+  }
 
   }
 
@@ -319,6 +343,12 @@
       height: 30px;
       object-fit: contain;
     }
+
+    .cloud1{
+      width: 300px;
+      height: 300px;
+      object-fit: contain;
+  }
 
   }
 

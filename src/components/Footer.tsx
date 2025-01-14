@@ -76,7 +76,7 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
           <div className={styles.socialWrapper}>
           {
             socialIcons.map((icon) => (
-              <a style={{backgroundColor:"white",padding:"20px",boxSizing:"border-box",borderRadius:"100px"}} key={icon.src} href={icon.link} target="_blank" rel="noopener noreferrer" >
+              <a className={styles.socialicons_wrapper} key={icon.src} href={icon.link} target="_blank" rel="noopener noreferrer" >
                 <img
                   className={styles.socialicons}
                   loading="lazy"

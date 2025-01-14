@@ -9,7 +9,9 @@ import horns from '../images/footer/horns.png'
 import bg from '../images/footer/bg.png'
 import { getAllWebsites } from "../firebaseconfig";
 import cloud2 from '../images/Section1/cloud1.png'
-import beno_gif from '../images/beno.gif'
+import beno_gif from '../images/beno4.gif'
+import beno2_gif from '../images/beno2.gif'
+import beno3_gif from '../images/beno3.gif'
 
 export type FooterType = {
   className?: string;
@@ -62,6 +64,8 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
       <img src={bg} style={{width:"100%",height:"auto",objectFit:"contain",position:"absolute",top:0}}/>
         <img src={cloud2} className={styles.cloud2}/>
         <img src={beno_gif} className={styles.beno}/>
+        <img src={beno2_gif} className={styles.beno2}/>
+        <img src={beno3_gif} className={styles.beno3}/>
         <div className={[styles.line, className].join(" ")}></div>
         <div className={[styles.body, className].join(" ")} style={{zIndex:1}}>
           <div className={[styles.description2wrapper, className].join(" ")}>

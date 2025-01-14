@@ -228,6 +228,20 @@
 .beno{
   position: absolute;
   bottom: 0;
+  left: 0;
+}
+
+.beno2{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.beno3{
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 @media screen and (max-width:500px) {
@@ -306,10 +320,14 @@
   padding:10px;
 }
 
-.beno{
-  width: 140px;
-  height: 140px;
+.beno2{
+  width: 180px;
+  height: 180px;
   object-fit: contain;
+}
+
+.beno,.beno3{
+  display: none;
 }
 
   
@@ -412,7 +430,7 @@
     padding:15px;
   }
 
-  .beno{
+  .beno,.beno2,.beno3{
     width: 180px;
     height: 180px;
     object-fit: contain;
@@ -518,7 +536,7 @@
     padding:20px;
   }
 
-  .beno{
+  .beno,.beno2,.beno3{
     width: 250px;
     height: 250px;
     object-fit: contain;

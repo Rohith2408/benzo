@@ -83,7 +83,6 @@
 
   .beno_left{
     position: absolute;
-    top:0;
     transform: scale(-1);
     left: 0;
   }
@@ -91,8 +90,8 @@
   @media screen and (max-width:500px) {
 
     .mainwrapper{
-        max-height: 940px;
-        min-height: 900px;
+        max-height: 1040px;
+        min-height: 1000px;
     }
 
     .subwrapper{
@@ -148,8 +147,10 @@
     }
 
     .beno_left{
+        /* display: none; */
         width: 150px;
         height:150px;
+        bottom: 0;
         object-fit: contain;
         transform: rotate(90deg);
     }
@@ -226,6 +227,7 @@
         width: 175px;
         height:175px;
         object-fit: contain;
+        top:0;
     }
 
     .beno_right{
@@ -298,6 +300,7 @@
         width: 225px;
         height:225px;
         object-fit: contain;
+        top:0;
     }
 
     .beno_right{
@@ -365,6 +368,7 @@
         width: 300px;
         height:300px;
         object-fit: contain;
+        top:0;
     }
 
     .beno_right{

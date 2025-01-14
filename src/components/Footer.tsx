@@ -9,7 +9,7 @@ import horns from '../images/footer/horns.png'
 import bg from '../images/footer/bg.png'
 import { getAllWebsites } from "../firebaseconfig";
 import cloud2 from '../images/Section1/cloud1.png'
-import beno_gif from '../images/$BENO-1.gif'
+import beno_gif from '../images/beno.gif'
 
 export type FooterType = {
   className?: string;

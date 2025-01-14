@@ -6,7 +6,7 @@ import frame from '../images/Section1/frame.png'
 import frame2 from '../images/Section1/frame_horizontal.png'
 import bg from '../images/Section1/bg.png'
 import cloud2 from '../images/Section1/cloud2.png'
-import beno_gif from '../images/$BENO-1.gif'
+import beno_gif from '../images/beno.gif'
 
 const About=()=>{
 

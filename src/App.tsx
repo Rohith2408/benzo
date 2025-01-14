@@ -14,7 +14,7 @@ function App() {
       <div><About/></div>
       {/* <div><Tokenomics/></div> */}
       <div><Memes/></div>
-      {/* <div><Footer/></div> */}
+      <div><Footer/></div>
     </div>
   );
 }

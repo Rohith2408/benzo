@@ -1,7 +1,8 @@
 .mainwrapper{
   width:100vw;
   height:100vh;
-  background-image: linear-gradient(#6F0000,#BA0000);
+  /* background-image: linear-gradient(#6F0000,#BA0000); */
+  background-color: #359ACB;
   display:flex;
   flex-direction: column;
   align-items: center;
@@ -47,7 +48,7 @@
   background-position: bottom;
   background-size: 100%;
   background-repeat: no-repeat;
-  gap: 5%;
+  gap:70px;
   margin-top: 7%;
 }
 
@@ -104,7 +105,7 @@
 }
 
 .contractaddwrapper{
-  width: 70%;
+  /* width: 70%; */
   display: flex;
   flex-direction: row;
   background-color: white;
@@ -154,9 +155,16 @@
   color: white;
 }
 
+.socialWrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .socialicons{
-  box-sizing: border-box;
-  border-radius: 100px;
+  object-fit: contain;
+  height: auto;
 }
 
 .gotohome{
@@ -205,6 +213,12 @@
   position: absolute;
 }
 
+.cloud2{
+  position: absolute;
+  top: 0px;
+  right: 50px;
+}
+
 @media screen and (max-width:500px) {
   .title{
     font-size: 50px;
@@ -224,12 +238,16 @@
   }
 
   .contractadd{
-    font-size: 16px;
+    font-size: 14px;
+  }
+
+  .socialWrapper{
+    gap: 30px;
   }
 
   .socialicons{
-    height: 15px;
-    width: 15px
+    width:40px;
+    border-radius: 100px;
   }
 
   .metricstitle,.gopolatitle{
@@ -253,10 +271,6 @@
     object-fit: contain;
   }
 
-  .contractadd{
-    font-size: 20px;
-  }
-
   .buymarv{
     font-size: 20px;
   }
@@ -270,6 +284,13 @@
   .prop{
     content: url("../images/footer/prop2.png");
   }
+
+  .cloud2{
+    width: 150px;
+    height:150px;
+    object-fit: contain;
+}
+
   
 }
 
@@ -321,9 +342,13 @@
     font-size: 20px;
   }
 
+  .socialWrapper{
+    gap: 30px;
+  }
+
   .socialicons{
-    height: 20px;
-    width: 20px;
+    width:40px;
+    border-radius: 100px;
   }
 
   .gotohome{
@@ -339,7 +364,7 @@
   }
 
   .contractadd{
-    font-size: 26px;
+    font-size: 18px;
   }
 
   .buymarv{
@@ -356,6 +381,12 @@
     content: url("../images/footer/prop1.png");
   }
 
+  .cloud2{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
 }
 
 @media screen and (min-width:1025px) {
@@ -364,8 +395,8 @@
     }
 
     .mainwrapper{
-      max-height:850px;
-      min-height:800px;
+      max-height:550px;
+      min-height:500px;
     }
   
     .subwrapper{
@@ -406,9 +437,13 @@
       font-size: 34px;
     }
 
+    .socialWrapper{
+        gap: 60px;
+    }
+
     .socialicons{
-      height:32px;
-      width: 32px;
+        width:80px;
+        border-radius: 100px;
     }
 
     .gotohome{
@@ -424,7 +459,7 @@
     }
     
     .contractadd{
-      font-size: 34px;
+      font-size: 28px;
     }
 
     .buymarv{
@@ -440,6 +475,12 @@
     .prop{
       content: url("../images/footer/prop1.png");
     }
+
+    .cloud2{
+      width: 300px;
+      height: 300px;
+      object-fit: contain;
+  }
 }
 
 @keyframes Swing {

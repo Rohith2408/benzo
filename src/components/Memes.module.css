@@ -72,6 +72,19 @@
     z-index: 1;
   }
 
+  .cloud1{
+    position: absolute;
+    top: 0px;
+    right: 50px;
+  }
+
+  .cloud2{
+    position: absolute;
+    top: 10px;
+    left:0;
+    
+  }
+
   .bg{
     object-fit: contain;
     height: 100%;
@@ -131,6 +144,18 @@
       content: url('../images/about/bg_mobile.png');
   }
 
+  .cloud1{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.cloud2{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
   }
 
   @media screen and (min-width:501px) and (max-width:1023px) {
@@ -168,6 +193,18 @@
       content: url('../images/about/bg_mobile.png');
   }
 
+  .cloud1{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.cloud2{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
   }
 
   @media screen and (min-width:1024px) and (max-width:1920px) {
@@ -203,6 +240,18 @@
     .bg{
       content: url('../images/about/bg.png');
   }
+
+  .cloud1{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.cloud2{
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+}
 
   }
 
@@ -244,6 +293,18 @@
     .bg{
       content: url('../images/about/bg.png');
   }
+
+  .cloud1{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.cloud2{
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+}
 
   }
 

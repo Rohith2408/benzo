@@ -6,6 +6,8 @@ import frame from '../images/Section1/frame.png'
 import frame2 from '../images/Section1/frame_horizontal.png'
 import bg from '../images/Section1/bg.png'
 import cloud2 from '../images/Section1/cloud2.png'
+import beno_gif from '../images/$BENO-1.gif'
+import beno2_gif from '../images/$BENO-1.gif'
 
 const About=()=>{
 
@@ -19,6 +21,8 @@ const About=()=>{
                 {/* <img className={styles.banner} src={banner}/> */}
                 <img src={cloud2} className={styles.cloud2}/>
                 <img src={bg} className={styles.bg}/>
+                <img src={beno_gif} className={styles.beno_left}/>
+                <img src={beno_gif} className={styles.beno_right}/>
                 <div className={styles.image_wrapper}><img src={knife} className={styles.image}/></div>
                 <div className={styles.body_wrapper} style={{zIndex:1}}>
                     <img src={title_image} className={styles.title}/>

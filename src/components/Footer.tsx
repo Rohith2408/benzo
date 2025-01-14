@@ -9,6 +9,7 @@ import horns from '../images/footer/horns.png'
 import bg from '../images/footer/bg.png'
 import { getAllWebsites } from "../firebaseconfig";
 import cloud2 from '../images/Section1/cloud1.png'
+import beno_gif from '../images/$BENO-1.gif'
 
 export type FooterType = {
   className?: string;
@@ -59,13 +60,11 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
     <section className={[styles.mainwrapper, className].join(" ")} id="footer" data-scroll-to="footer">
       <div className={[styles.subwrapper, className].join(" ")}>
       <img src={bg} style={{width:"100%",height:"auto",objectFit:"contain",position:"absolute",top:0}}/>
-        {/* <img className={styles.prop}/> */}
-        {/* <img className={styles.horns} src={horns}></img> */}
         <img src={cloud2} className={styles.cloud2}/>
+        <img src={beno_gif} className={styles.beno}/>
         <div className={[styles.line, className].join(" ")}></div>
         <div className={[styles.body, className].join(" ")} style={{zIndex:1}}>
           <div className={[styles.description2wrapper, className].join(" ")}>
-            {/* <div className={[styles.buymarv, className].join(" ")}><a style={{color:"#6F0000",textDecoration:"none"}} href={buyLink} target="_blank">Buy $BENO</a></div> */}
             <div className={[styles.contractaddwrapper, className].join(" ")}>
               <p className={[styles.contractadd, className].join(" ")}>CA: {ca.substring(0,30)+"..."}</p>
               <button onClick={()=>{alert("CA has been copied");navigator.clipboard.writeText(ca)}} className={[styles.copyiconwrapper, className].join(" ")}>

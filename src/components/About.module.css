@@ -75,6 +75,19 @@
     right: 50px;
   }
 
+  .beno_right{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .beno_left{
+    position: absolute;
+    top:0;
+    transform: scale(-1);
+    left: 0;
+  }
+
   @media screen and (max-width:500px) {
 
     .mainwrapper{
@@ -132,6 +145,20 @@
         width: 100px;
         height: 100px;
         object-fit: contain;
+    }
+
+    .beno_left{
+        width: 150px;
+        height:150px;
+        object-fit: contain;
+        transform: rotate(90deg);
+    }
+
+    .beno_right{
+        width: 150px;
+        height:150px;
+        object-fit: contain;
+        transform: rotate(-90deg);
     }
 
   }
@@ -195,6 +222,18 @@
         object-fit: contain;
     }
 
+    .beno_left{
+        width: 175px;
+        height:175px;
+        object-fit: contain;
+    }
+
+    .beno_right{
+        width: 175px;
+        height:175px;
+        object-fit: contain;
+    }
+
   }
 
   @media screen and (min-width:1024px) and (max-width:1920px) {
@@ -255,6 +294,17 @@
         object-fit: contain;
     }
 
+    .beno_left{
+        width: 225px;
+        height:225px;
+        object-fit: contain;
+    }
+
+    .beno_right{
+        width: 225px;
+        height:225px;
+        object-fit: contain;
+    }
   }
 
   @media screen and (min-width:1921px){
@@ -308,6 +358,18 @@
     .cloud2{
         width: 500px;
         height: 500px;
+        object-fit: contain;
+    }
+
+    .beno_left{
+        width: 300px;
+        height:300px;
+        object-fit: contain;
+    }
+
+    .beno_right{
+        width: 300px;
+        height:300px;
         object-fit: contain;
     }
 

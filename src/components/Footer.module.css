@@ -225,6 +225,11 @@
   border-radius:100px
 }
 
+.beno{
+  position: absolute;
+  bottom: 0;
+}
+
 @media screen and (max-width:500px) {
   .title{
     font-size: 50px;
@@ -299,6 +304,12 @@
 
 .socialicons_wrapper{
   padding:10px;
+}
+
+.beno{
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
 }
 
   
@@ -395,109 +406,122 @@
     width: 200px;
     height: 200px;
     object-fit: contain;
-}
+  }
 
-.socialicons_wrapper{
-  padding:15px;
-}
+  .socialicons_wrapper{
+    padding:15px;
+  }
+
+  .beno{
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+  }
 
 }
 
 @media screen and (min-width:1025px) {
-    .title{
-      font-size: 140px;
-    }
 
-    .mainwrapper{
-      max-height:550px;
-      min-height:500px;
-    }
-  
-    .subwrapper{
-      max-width: 2000px;
-    }
+  .title{
+    font-size: 140px;
+  }
 
-    .body{
-      
+  .mainwrapper{
+    max-height:550px;
+    min-height:500px;
+  }
 
-    }
+  .subwrapper{
+    max-width: 2000px;
+  }
 
-    .description1{
-      font-size: 24px;
-    }
-
-    .description2wrapper{
-      font-size: 24px;
-    }
-
-    .marvtext{
-      font-size: 70px;
-    }
-  
-    .jointext{
-      font-size: 20px;
-    }
-
-    .metricstitle,.gopolatitle{
-      font-size: 28px;
-      font-family: var(--font-pure-joy);
-    }
-
-    .metricslist,.gopolalist{
-      font-size: 24px;
-    }
-
-    .contractadd{
-      font-size: 34px;
-    }
-
-    .socialWrapper{
-        gap: 60px;
-    }
-
-    .socialicons{
-        width:80px;
-        border-radius: 100px;
-    }
-
-    .gotohome{
-      /* left: 85%; */
-      top: 40%;
-      font-size: 24px;
-    }
-
-    .gotohomeimg{
-      width: 100px;
-      height: auto;
-      object-fit: contain;
-    }
+  .body{
     
-    .contractadd{
-      font-size: 28px;
-    }
 
-    .buymarv{
-      font-size: 34px;
-    }
+  }
 
-    .horns{
-      width: 800px;
-      height: auto;
-      object-fit: contain;
-    }
+  .description1{
+    font-size: 24px;
+  }
 
-    .prop{
-      content: url("../images/footer/prop1.png");
-    }
+  .description2wrapper{
+    font-size: 24px;
+  }
 
-    .cloud2{
-      width: 300px;
-      height: 300px;
-      object-fit: contain;
+  .marvtext{
+    font-size: 70px;
+  }
+
+  .jointext{
+    font-size: 20px;
+  }
+
+  .metricstitle,.gopolatitle{
+    font-size: 28px;
+    font-family: var(--font-pure-joy);
+  }
+
+  .metricslist,.gopolalist{
+    font-size: 24px;
+  }
+
+  .contractadd{
+    font-size: 34px;
+  }
+
+  .socialWrapper{
+      gap: 60px;
+  }
+
+  .socialicons{
+      width:80px;
+      border-radius: 100px;
+  }
+
+  .gotohome{
+    /* left: 85%; */
+    top: 40%;
+    font-size: 24px;
+  }
+
+  .gotohomeimg{
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+  }
+  
+  .contractadd{
+    font-size: 28px;
+  }
+
+  .buymarv{
+    font-size: 34px;
+  }
+
+  .horns{
+    width: 800px;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .prop{
+    content: url("../images/footer/prop1.png");
+  }
+
+  .cloud2{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
   }
 
   .socialicons_wrapper{
     padding:20px;
+  }
+
+  .beno{
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
   }
 }
 

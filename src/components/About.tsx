@@ -23,7 +23,7 @@ const About=()=>{
                 <div className={styles.body_wrapper} style={{zIndex:1}}>
                     <img src={title_image} className={styles.title}/>
                     <p className={styles.text}>
-                    Booba is not just a meme coin – it's a whole mood! Inspired by the endless fascination for boobs, Booba keeps its eyes locked on fun and profits. With popping eyes and cheeky vibes, Booba is the perfect mix of humor, community, and lighthearted crypto culture.
+                    Benzo is a meme coin like no other, driven by the cool and charismatic Shiba Inu spirit with an extra dash of swag! With a lovable yet mischievous Shiba dog at its core, Benzo combines fun, community, and crypto innovation into one furry, unstoppable package. Whether you're here for the memes, the hype, or just to see where this wild ride takes you, Benzo is your ticket to the moon (and maybe some tail wags along the way).Time to join the Benzo pack!
                     {/* Welcome to 2025: Year of the Snake, where crypto meets slithery memes! 🐍💸 Dive into the hilarious side of blockchain with bite-sized laughs, venomous wit, and coiled-up commentary on the wild world of cryptocurrency. Whether you're a crypto connoisseur or just along for the ride, we've got the perfect mix of fangs and fun to keep you entertained. */}
                     </p>
                 </div>

@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <div><Section1/></div>
       <div><About/></div>
-      <div><Tokenomics/></div>
+      {/* <div><Tokenomics/></div> */}
       <div><Memes/></div>
       {/* <div><Footer/></div> */}
     </div>

@@ -8,7 +8,7 @@
     background-repeat:no-repeat;
     background-size: cover;
     position: relative;
-    background-color:#E8A327;
+    background-color:#78C4E9;
     /* background-image: url(../images/Section1/prop.png); */
     overflow: hidden;
 }
@@ -95,8 +95,8 @@
   @media screen and (max-width:500px) {
 
     .mainwrapper{
-        max-height:1450px;
-        min-height:1400px;
+        max-height:2150px;
+        min-height:2100px;
     }
 
     .body{
@@ -136,8 +136,8 @@
   @media screen and (min-width:501px) and (max-width:1023px) {
 
     .mainwrapper{
-        max-height:950px;
-        min-height:900px;
+        max-height:1350px;
+        min-height:1300px;
     }
 
     .body{
@@ -173,8 +173,8 @@
   @media screen and (min-width:1024px) and (max-width:1920px) {
 
     .mainwrapper{
-      max-height: 1180px;
-      min-height: 1100px;
+      max-height: 1380px;
+      min-height: 1300px;
     }
 
     .body{
@@ -209,8 +209,8 @@
   @media screen and (min-width:1921px){
 
     .mainwrapper{
-        max-height: 1200px;
-        min-height: 1250px;
+        max-height: 1600px;
+        min-height: 1650px;
     }
 
     .subwrapper{

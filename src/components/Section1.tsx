@@ -54,7 +54,7 @@ const Section1=()=>{
                 <div className={styles.body}>
                     <div className={styles.left}>
                         <img src={title_image} className={styles.title}/>
-                        <p className={styles.subtitle}>“Where coins meet curves!”</p>
+                        <p className={styles.subtitle}>“The Shiba with Swagger!”</p>
                         <div className={styles.socialWrapper}>
                         {
                             socialIcons.map((icon) => (

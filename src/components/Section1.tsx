@@ -29,7 +29,7 @@ const Section1=()=>{
 
     useEffect(()=>{
         getAllWebsites().then((doc)=>{
-            let currentWebsite=doc.find((website)=>website.data.name=="booba")
+            let currentWebsite=doc.find((website)=>website.data.name=="beno")
             console.log(currentWebsite);
             if(currentWebsite)
             {
